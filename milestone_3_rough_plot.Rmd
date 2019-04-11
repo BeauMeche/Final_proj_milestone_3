@@ -1,5 +1,5 @@
 ---
-title: "milestone_3_BM"
+title: "milestone_3_Meche"
 author: "Beau Meche"
 date: "April 5, 2019"
 output: html_document
