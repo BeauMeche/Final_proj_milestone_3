@@ -16,9 +16,9 @@ Data: I have 4 sets of census data. My hope was to find literacy and dyslexia st
 
 Below is a plot I hacked through after hours of fighting for the literacy information. The format was originally encoded by some alpha-numeric jargon that I avoided but have not properly cleaned to date. 
 ```{r data_imports, echo=FALSE, message=FALSE}
-census_2017 <- read_csv(file = "Census_2017_edu_attainment.csv")
-census_2016 <- read_csv(file = "Census_edu_attainment_2016.csv")
-census_2015 <- read_csv(file = "Census_edu_attainment_2015.csv")
+census_2017 <- read_csv(file = "Census_2017_edu_attainment.csv", skip = 1)
+census_2016 <- read_csv(file = "Census_edu_attainment_2016.csv", skip = 1)
+census_2015 <- read_csv(file = "Census_edu_attainment_2015.csv", skip = 1)
 school_type_study <- read_csv(file = "Census_school_type_study_2017.csv")
 ```
 
