@@ -21,3 +21,7 @@ x <- school_type_study %>% select(`GEO.display-label`, HD01_VD05) %>%
        y = "enrollment counts: excuse the odd arrangement, this is a laborious endeavor", 
        x = "") + theme(axis.text.x = element_text(angle = -90, hjust = 1))
 x
+
+
+## cleaning data tool: 
+# census_2017_nomargin <- census_2017[, ! str_detect(names(census_2017), pattern = "Margin of Error")]
